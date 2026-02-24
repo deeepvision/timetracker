@@ -59,6 +59,8 @@ git pull upstream main
 
 Update `composer.lock` file after merge. Use php 8.3
 ```bash
+brew link --overwrite php@8.3
+
 rm -f composer.lock
 composer install
 ```
